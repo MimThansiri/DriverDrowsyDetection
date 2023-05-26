@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['close_eye', 'no_yawn', 'open_eye', 'yawn']
+
+roboflow:
+  workspace: eye-detection-dataset
+  project: eye-and-mouth-detection
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/eye-detection-dataset/eye-and-mouth-detection/dataset/3
